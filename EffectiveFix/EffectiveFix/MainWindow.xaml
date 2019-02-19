@@ -1,0 +1,31 @@
+﻿<Window x:Class="EffectiveFix.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EffectiveFix"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="211.819" Width="395.738" WindowStyle="ToolWindow" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="路徑：" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="生效日：" Margin="10,50,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="20" RenderTransformOrigin="1.167,0.657"/>
+        <TextBox x:Name="txtPath" HorizontalAlignment="Left" Margin="80,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="258" FontSize="14" MaxHeight="20"/>
+        <DatePicker x:Name="datepicker1" HorizontalAlignment="Left" Margin="100,57,0,0" VerticalAlignment="Top" FontSize="14" Width="161"/>
+        <Button x:Name="BtnSetting" Content="設定" Margin="71,0,70,12" RenderTransformOrigin="0.5,0.5" Click="BtnSetting_Click" Height="32" VerticalAlignment="Bottom" FontSize="20">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.075"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="BtnPath" Content="..." HorizontalAlignment="Left" Margin="343,19,0,0" VerticalAlignment="Top" Width="25" Height="20" Click="BtnPath_Click" RenderTransformOrigin="-0.333,1.565" FontSize="14"/>
+
+    </Grid>
+</Window>

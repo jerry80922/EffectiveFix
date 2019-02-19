@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EffectiveFix", "EffectiveFix\EffectiveFix.csproj", "{4700C7D3-2109-4E6E-8C01-FEA8C13D41DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4700C7D3-2109-4E6E-8C01-FEA8C13D41DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4700C7D3-2109-4E6E-8C01-FEA8C13D41DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4700C7D3-2109-4E6E-8C01-FEA8C13D41DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4700C7D3-2109-4E6E-8C01-FEA8C13D41DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FBCE6DE-236F-41B1-A550-62E9993CF49F}
+	EndGlobalSection
+EndGlobal
